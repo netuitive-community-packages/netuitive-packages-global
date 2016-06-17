@@ -1,4 +1,4 @@
-#netuitive.packages.global 1.0.0
+#netuitive.packages.global 1.1.0
 
 ##Release History
 
