@@ -1,6 +1,10 @@
-#netuitive.packages.global 1.1.0
+#netuitive.packages.global 1.2.0
 
 ##Release History
+
+###Version 1.2.0
+
+* Removed global defaults for metric settings. Need to keep these out the package until we improve order of precedence.
 
 ###Version 1.1.0
 
