@@ -4,7 +4,10 @@
     "name" : "Less Than 50% of Metrics Collected",
     "description" : "For the past 30 minutes, Netuitive has consistently received data for less than 50% of the metrics for this element.",
     "scope" : {
-      "elementName" : "",
+      "elementName" : null,
+      "elementNameExclude" : null,
+      "fqnIncludes" : [ ],
+      "fqnExcludes" : [ ],
       "elementType" : null,
       "elementTags" : { }
     },
@@ -12,6 +15,7 @@
     "conditions" : [ {
       "metric" : "netuitive.metrics.collected.percent",
       "wildcard" : null,
+      "metricScopeTags" : { },
       "analytic" : "actual",
       "operator" : "<",
       "level" : 50.0,
@@ -19,6 +23,7 @@
       "metricThresholdLevel" : null,
       "metricThresholdAnalytic" : null
     } ],
+    "eventConditions" : [ ],
     "actions" : [ {
       "type" : "event",
       "category" : 2

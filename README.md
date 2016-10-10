@@ -1,6 +1,10 @@
-#netuitive.packages.global 1.2.0
+#netuitive.packages.global 1.2.1
 
 ##Release History
+
+###Version 1.2.1
+
+* Updated package compatibilities.
 
 ###Version 1.2.0
 
