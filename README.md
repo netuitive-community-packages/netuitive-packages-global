@@ -2,6 +2,10 @@
 
 ## Release History
 
+### Version next
+
+* Bugfix to convert to elementTypes array in policy scope
+
 ### Version 1.2.1
 
 * Updated package compatibilities.
