@@ -1,38 +1,23 @@
 {
-  "policy" : {
-    "id" : null,
-    "name" : "Less Than 50% of Metrics Collected",
-    "description" : "For the past 30 minutes, Netuitive has consistently received data for less than 50% of the metrics for this element.",
-    "scope" : {
-      "elementName" : null,
-      "elementNameExclude" : null,
-      "fqnIncludes" : [ ],
-      "fqnExcludes" : [ ],
-      "elementTypes" : [],
-      "elementTags" : { }
-    },
-    "duration" : 1800,
-    "conditions" : [ {
-      "metric" : "netuitive.metrics.collected.percent",
-      "wildcard" : null,
-      "metricScopeTags" : { },
-      "analytic" : "actual",
-      "operator" : "<",
-      "level" : 50.0,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    } ],
-    "eventConditions" : [ ],
-    "actions" : [ {
-      "type" : "event",
-      "category" : 2
-    } ],
-    "enabled" : false,
-    "deleted" : false,
-    "originTenantId" : null,
-    "originPolicyId" : null,
-    "creatorEmail" : null,
-    "lastUpdated" : null
+  "policy": {
+    "actions": [
+      {
+        "category": 2,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 50,
+        "metric": "netuitive.metrics.collected.percent",
+        "operator": "<"
+      }
+    ],
+    "deleted": false,
+    "description": "For the past 30 minutes, Netuitive has consistently received data for less than 50% of the metrics for this element.",
+    "duration": 1800,
+    "enabled": false,
+    "name": "Less Than 50% of Metrics Collected"
   }
 }
