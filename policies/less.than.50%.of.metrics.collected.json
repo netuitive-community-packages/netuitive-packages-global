@@ -18,6 +18,9 @@
     "description": "For the past 30 minutes, Netuitive has consistently received data for less than 50% of the metrics for this element.",
     "duration": 1800,
     "enabled": false,
-    "name": "Less Than 50% of Metrics Collected"
+    "name": "Less Than 50% of Metrics Collected",
+    "scope": {
+      "elementTypes": []
+    }
   }
 }
